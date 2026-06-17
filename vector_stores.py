@@ -1,5 +1,10 @@
 from langchain_community.embeddings import DashScopeEmbeddings
 from langchain_core.tools import retriever
+import subprocess
+import sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "langchain-chroma"])
+
+from langchain_chroma import Chroma
 
 import config_data as config
 from langchain_chroma import Chroma
