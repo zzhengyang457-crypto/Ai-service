@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-community
+# 如果你用通义千问DashScope，必须加这个
+dashscope
+# 其他你项目用到的包，例如pandas、numpy等
+pandas
+numpy
